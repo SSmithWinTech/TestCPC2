@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="TestPublic.Winklevoss_Technologies_LLC" Version="3.19.0.1" />
+    <PackageReference Include="Winklevoss_Technologies_LLC.TestCPC" Version="3.20.0.1" />
   </ItemGroup>
 
 </Project>

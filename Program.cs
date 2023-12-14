@@ -8,7 +8,7 @@ namespace TestCPC2
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            TestCPC test = new TestCPC();
+            TestPublic.TestCPC test = new TestPublic.TestCPC();
             var s = test.SqRt(22);
             Console.WriteLine("SquareRoot of 22=" + s);
             Console.ReadLine();
