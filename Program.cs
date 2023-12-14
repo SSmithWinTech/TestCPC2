@@ -1,5 +1,5 @@
 ﻿using System;
-using TestPublic;
+using TestMyCPC;
 
 namespace TestCPC2
 {
@@ -8,8 +8,9 @@ namespace TestCPC2
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            TestPublic.TestCPC test = new TestPublic.TestCPC();
+            TestMyCPC.MyCPCClass test = new TestMyCPC.MyCPCClass();
             var s = test.SqRt(22);
+            //test.API_FILEOPEN()
             Console.WriteLine("SquareRoot of 22=" + s);
             Console.ReadLine();
         }
