@@ -12,7 +12,12 @@ namespace TestCPC2
             var s = test.SqRt(22);
             //test.API_FILEOPEN()
             Console.WriteLine("SquareRoot of 22=" + s);
-            Console.ReadLine();
+            Console.Write("Take the square root of: ");
+            var a = Console.ReadLine();
+            var b = Double.Parse(a);
+            s = test.SqRt(b);
+            Console.WriteLine("SquareRoot of "+ a +"=" + s);
+
         }
     }
 }

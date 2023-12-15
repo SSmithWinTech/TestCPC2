@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Winklevoss.TestMyCPC" Version="3.20.0.2" />
+    <PackageReference Include="Winklevoss.TestMyCPC" Version="3.20.0.3" />
   </ItemGroup>
 
 </Project>
